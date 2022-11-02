@@ -1,0 +1,95 @@
+@media screen and (max-width:1140px) {
+  
+
+    .header{
+        #text-top{
+            font-size:2rem;
+        }
+        
+       
+        .header-row{
+
+
+            p{
+                font-size:1rem;
+            }
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width:991px){
+ .header{
+     text-align:center;
+
+     .col-lg-6{
+         margin-top:40px;
+     }
+ }
+
+ .header-image{
+     margin:0 !important;
+ }
+}
+
+@media screen and (max-width:715px){
+    .header{
+        .header-navbar{
+            flex-flow:column wrap;
+        }
+    }
+
+    .footer{
+        &-navbar{
+            flex-flow:column wrap;
+            text-align:center;
+        }
+
+        .footer-row-content{
+            text-align:center;
+        }
+        .socials{
+            text-align:center !important;
+            margin:0 !important;
+        }
+    }
+
+    .step1,.step2,.facilities,.testimonials,.pricing{
+        margin:0 auto !important;
+       
+    }
+
+    .pricing-item{
+        margin-top:20px;
+        padding-bottom:20px;
+        border-bottom:1px solid rgba(0,0,0,0.2);
+    }
+}
+
+@media screen and (max-width:627px){
+   .header-navbar-nav{
+       ul{
+           li{
+            font-size:0.9rem;
+           }
+           
+       }
+   }
+}
+
+@media screen and (max-width:592px) {
+    .header-navbar-nav{
+        ul{
+            flex-flow:column wrap;
+            li{
+                font-size:1.2rem;
+            }
+         }
+    }
+
+    .header-row{
+        margin-top:80px !important;
+    }
+}
